@@ -1,5 +1,4 @@
 document.querySelector(`head`).insertAdjacentHTML('beforeend', `
-    <link href="../resources/uds.css"         rel="stylesheet"></link>
     <link href="민법-resources/btn-box.css"   rel="stylesheet"></link>
     <link href="민법-resources/ul-toggle.css" rel="stylesheet"></link>
 `);
@@ -14,8 +13,6 @@ function scriptSplice(a){
 const scriptArr=scriptSplice(`
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://code.jquery.com/ui/1.14.0/jquery-ui.min.js"></script>
-    <script src="../resources/udf.js"></script>
-    <script src="../resources/udc.js"></script>
     <script src="민법-resources/ul-toggle.js"></script>
     <script src="민법-resources/btn-box.js"></script>
 `);
